@@ -3,7 +3,7 @@ Array (
         [name] => IMG_9220.jpg 
         [type] => image/jpeg 
         [tmp_name] => C:\xampp\tmp\phpB56B.tmp 
-        [error] => 0 
+        [error] => 0  
         [size] => 3563793 
         ) 
     )
