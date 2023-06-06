@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background-image: url("image/chatintro.jpg");
+    background-size: 100%;
+    background-position-y: 0%;
+    background-position-x: left;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+    
+.main {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 7px 7px 10px 0 rgb(34, 34, 34);
+}
+
+.unInput  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unInput input, ::placeholder{
+    color: black;
+    margin-bottom: 20px;
+    border: none;
+    background: none;
+    border-bottom: solid black 1px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 35px;
+    background: rgb(43, 43, 43);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    transition: 0.5s;
+    background: black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    transition: 0.2s;
+    margin-top: 10px;
+font-size: 15px;
+}
+
+a:hover{
+    color: black;
+    transition: 0.5s;
+}

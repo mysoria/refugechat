@@ -1,0 +1,79 @@
+html,
+body {
+  background-image: url("image/chatintro.jpg");
+  background-size: 100%;
+  background-position-y: 0%;
+  background-position-x: left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  margin-bottom: 300px;
+}
+
+.navbar {
+  overflow: hidden;
+  display: flex !important;
+  background-color: rgba(209, 203, 203, 0.384);
+  flex-basis: auto;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  align-items: center;
+}
+
+.navbar img {
+  display: flex;
+  width: 100px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: flex;
+  color: #000000;
+  font-size: 20px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: rgb(44, 194, 30);
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+.masection {
+  padding-top: 46px;
+  color: blue;
+}
+.lienmenu {
+  padding: 0%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
